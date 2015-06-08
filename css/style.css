@@ -1,0 +1,380 @@
+.container {
+	max-width: 900px;
+	min-width: 900px;
+	margin: auto;
+}
+
+#construction img{
+	max-width: 100%;
+}
+
+#construction {
+	
+	-moz-transform:rotate (45deg);
+	transform:rotate (45deg);
+	-webkit-transform:rotate (45deg);
+	position: fixed;
+	top:0;
+	right:0;
+	width: 400px;
+	z-index: 10;
+}
+
+html, html a {
+	-webkit-font-smoothing: antialiased !important;
+	font-smoothing: antialiased !important;
+}
+
+html *{
+	margin:0;
+	padding:0;
+}
+
+body{
+	position: relative;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	line-height: 150%;
+	color: #444;
+	background-color: #eee;
+	background-image:  url('img/subtle_grunge.png');
+}
+
+h2, h3 {
+	color: #444;
+	word-spacing: .005em;
+}
+
+h1{
+	font-family: 'Lemon', sans-serif;
+	font-size: 3.5em;	
+	border-style: none;	
+	margin: 2em 0em .4em;
+	text-shadow: 0px 1.5px 0px rgba(255, 255, 255, 1);
+}
+
+#logo {
+	float: left;
+	margin-right: 1em;
+	margin-bottom:2em;
+}
+
+#logo h1{
+	margin: 0;
+	padding: 0;
+	font-size: 8em;
+	color: rgba(189,73,50,1);
+	text-shadow: 0px 2px 1px #444;
+}
+
+header{
+	margin-bottom: 2em;
+}
+
+header p {
+	font-size: 1.5em;
+	font-family: 'Lobster', sans-serif;
+
+}
+
+h2{
+	font-size: 1.75em;
+}
+
+nav,  .vietnamese-cuisine {
+
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+nav {
+	margin-bottom: 1em;
+	border: solid 1px;
+	color: lightgray;
+	background: linear-gradient(to top, #444, #666);
+	box-shadow: 0 0.750em 0.250em -0.850em rgba(0, 0,0, .8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	justify-content: flex-start;
+	align-items: center;
+	z-index: 10;
+}
+
+nav a {
+	font-family: 'Raleway', sans-serif;
+	color: #eee;
+	margin: 0.400em 1.5em;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1em;
+	text-shadow: 0px 1px 0px #222;
+	letter-spacing: 0.125em;
+	transition-duration: .5s;
+	column-rule-width: 100px;
+}
+
+
+nav a:first-child {
+	font-family: 'Lemon', sans-serif;
+	color: rgba(229,90,61,1);
+	font-size: 1.55em
+
+}
+
+
+
+.main-content {
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+.featured-restaurants {
+	width:;
+	border-top: solid 2px;
+	border-bottom: solid 1px;
+	position: relative;
+	z-index: 2;
+	background-color: white;
+	margin-bottom: 3em;
+	padding: 1.5em;
+	height: 100%;
+/*	border-radius: 1.5em;*/
+}
+
+.featured-restaurants img{
+	float: right;
+	width: 30%;
+	padding-left: 1.5em;
+
+}
+
+.featured-restaurants h2{
+	
+	font-size: 2.5em;
+
+}
+
+.featured-restaurants p{
+	margin-top: 1em;
+	font-size: 1.5em;
+	line-height: 1em;
+
+}
+
+/*==================ARTICLE==========================================================
+=======================================================================================*/
+
+.featured-article {
+	clear: left;
+	margin: 2em 0 0em 0;
+	padding: 1em 1.5em;
+	background: linear-gradient( to top, #444, #666);
+/*	background-image: url('img/concrete_wall_2.png');
+*/
+	color: white;
+	box-shadow: 0 1rem 1rem -1.25rem #08575d;
+	border: solid 2px white;
+	border-radius: 1.5em 1.5em 0em 0;
+}
+
+.featured-article h2{
+	line-height: 1em;
+	text-shadow: 2px 1px 1px #222244;
+	border: none;
+	margin-bottom: 0.25em;
+	color: white;
+}
+
+.featured-article img{
+	float: right;
+	width:  165px;
+	border: none;
+	margin-bottom: -3em;
+	clear: right;
+	/*z-index: 100;*/
+}
+
+/*==================Main Content==========================================================
+=======================================================================================*/
+
+.featured-content {
+	float: left;
+	position:relative;
+	z-index: 7;
+	padding: 1em;
+	margin: 0.50em;
+	border-top-style: dashed;
+	border-top-width: 2px;
+	border-top-color: #bbb;
+	border-bottom-style: dashed;
+	border-bottom-width: 2px;
+	border-bottom-color: #bbb;
+	/*background: linear-gradient( to top, #B4AF91, #D6D0AD);*/
+	background: #fff;
+	box-shadow: 1em 1em .75em -1.40em rgba(0, 0,0, 1), -1em 0em .75em -1.40em rgba(0, 0,0, 1);
+    width: 170px;   
+}
+#fourth {
+	clear: left;
+}
+.featured-content img {
+	max-width: 100%;
+	max-height: 10%;
+/*	border: solid 2px #FFD34E;*/
+	margin: 0em, 0em, 0.5em, 0.5em;
+}
+.featured-content h2 {
+	border-style: none;
+    text-shadow: 0px -1px -1px #222;
+	color: #444;
+	font-weight: normal;
+	margin-bottom: 0.5em;
+
+}
+
+.featured-content p {
+	margin: 0 1em 0.5em 0em;
+	clear: left;
+}
+
+.btn {
+	color:	white;
+	background: rgba(200, 138, 34, .6);
+	padding: 0.3em 0.7em;
+	border-radius: 25px;
+	text-decoration: none;
+	transition-duration: .5s;
+}
+
+
+
+/*==================FOOD==========================================================
+=======================================================================================*/
+
+.vietnamese-cuisine-h2{
+	clear: left;
+	position: relative;
+	z-index: 6;
+	margin: 1em 0 0.5em 1em;
+	text-shadow: 0px 1.5px 0px rgba(255, 255, 255, 1);
+}
+
+.vietnamese-cuisine {
+	clear: left;
+	position: relative;
+	z-index: 6;
+	margin: 1em 0 5em 0;
+	border-top: solid 1px lightgray;
+	padding: 1em;
+	justify-content: flex-center;
+	background:  white;
+	color: #444;
+	border-radius: 1em;
+}
+
+.food-box img{
+	/*border: solid 1px #B4AF91;*/
+	display: block;
+	width:100%;
+	margin: 0.5em 0;
+	border-radius: 1em;
+}
+
+.food-box h3{
+	color: #444;
+}
+
+.food-box {
+	width: 27%;
+	margin-right: 1em;
+}
+
+.food-box  p{
+	font-size: 0.75em;
+	height: 7.5rem;
+	overflow: hidden;
+}
+
+.food-box a{
+	background-color: rgba(189, 73, 50, 1);
+}
+
+
+/*===========================================================================
+=======================================================================================*/
+
+nav a:hover{
+	color: #DB9E36;
+}
+
+
+.btn:hover{
+	background: #DB9E36;
+}
+
+
+footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	padding-top: 400px;
+	margin-top: 1em;
+	text-align: center;
+	/*background-color: #444;
+	height: 1.5em;*/
+	color: black;
+	background-image: url('img/bg.png');
+	z-index: 0;
+}
+
+
+
+.vietnamese {
+/*	font-family: 'Noto Sans', sans-serif;*/
+	font-size: 1.25rem;	
+}
+
+p {
+	margin-bottom: 1rem;
+}
+
+/*===================================================================
+	Media Queries
+=====================================================================*/
+
+/*@media screen and (max-width: 599px) {
+	body {
+		font-size: 0.75rem;
+	}
+	.container {
+		max-width: 90%;
+	}
+
+	nav, .main-content, .vietnamese-cuisine {
+
+    flex-direction: column;
+
+    flex-wrap: wrap;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.container {
+		max-width: 70%;
+	}
+
+	
+}
+
+
+*/
